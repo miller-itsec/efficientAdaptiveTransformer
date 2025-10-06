@@ -2,6 +2,8 @@
 
 This repository contains training, timing, and analysis scripts for the **Efficient Adaptive Transformer (EAT)** benchmark suite — comparing **BERT**, **DistilBERT**, and **EAT** across GLUE tasks (**SST-2**, **QQP**, **MNLI**). It also includes a short **cybersecurity application guide** (anti-phishing and file-type detection), a **reproducibility checklist**, and a LaTeX-friendly workflow for paper figures.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17282020.svg)](https://doi.org/10.5281/zenodo.17282020)
+
 ---
 
 ## 🔧 1) Environment Setup (Windows-friendly)
