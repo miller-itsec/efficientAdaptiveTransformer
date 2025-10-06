@@ -1,0 +1,145 @@
+\begin{thebibliography}{21}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Beltagy et~al.(2020)Beltagy, Peters, and Cohan]{beltagy2020longformer}
+Iz~Beltagy, Matthew~E Peters, and Arman Cohan.
+\newblock Longformer: The long-document transformer.
+\newblock \emph{arXiv:2004.05150}, 2020.
+
+\bibitem[Chen et~al.(2021)Chen, Lou, Huang, et~al.]{chen2021elasticbert}
+Guimin Chen, Jun Lou, Xun Huang, et~al.
+\newblock Elasticbert: Neural architecture search for compact and fast bert.
+\newblock \emph{NeurIPS}, 2021.
+
+\bibitem[Choromanski et~al.(2021)Choromanski, Likhosherstov, Dohan, Song, Gane,
+  Sarlos, Hawkins, Davis, Mohiuddin, Kaiser, Belanger, Weller, and
+  Kuna]{choromanski2021performer}
+Krzysztof Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song,
+  Andreea Gane, Tamas Sarlos, Peter Hawkins, Jared Davis, Afroz Mohiuddin,
+  {\L}ukasz Kaiser, David Belanger, Adrian Weller, and Michael Kuna.
+\newblock Rethinking attention with performers.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2021.
+
+\bibitem[Devlin et~al.(2019)Devlin, Chang, Lee, and Toutanova]{devlin2019bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock Bert: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock In \emph{NAACL-HLT}, 2019.
+\newblock URL \url{https://aclanthology.org/N19-1423}.
+
+\bibitem[Fan et~al.(2019)Fan, Grave, and Joulin]{fan2019layerdrop}
+Angela Fan, Edouard Grave, and Armand Joulin.
+\newblock Reducing transformer depth on demand with structured dropout.
+\newblock In \emph{Proc. ICLR}, 2019.
+
+\bibitem[Gordon et~al.(2020)Gordon, Duh, and Andrews]{gordon2020compressing}
+Mitchell Gordon, Kevin Duh, and Nicholas Andrews.
+\newblock Compressing bert: Studying the effects of weight pruning on transfer
+  learning.
+\newblock \emph{ACL}, 2020.
+
+\bibitem[Goyal et~al.(2020)Goyal, Kapoor, Nenkova, and
+  Neubig]{goyal2020powerbert}
+Sandeep~Subramanian Goyal, Vikrant Kapoor, Ani Nenkova, and Graham Neubig.
+\newblock {PoWER-BERT}: Accelerating {BERT} inference via progressive
+  word-vector elimination.
+\newblock In \emph{ICML Workshop on Efficient Natural Language and Speech
+  Processing}, 2020.
+\newblock Archival arXiv version: arXiv:2001.08950.
+
+\bibitem[Hinton et~al.(2015)Hinton, Vinyals, and Dean]{hinton2015distill}
+Geoffrey Hinton, Oriol Vinyals, and Jeff Dean.
+\newblock Distilling the knowledge in a neural network.
+\newblock \emph{arXiv:1503.02531}, 2015.
+
+\bibitem[Hou et~al.(2020)Hou, Huang, Shang, Jiang, Chen, and
+  Liu]{hou2020dynabert}
+Lu~Hou, Zhiqi Huang, Lifeng Shang, Xin Jiang, Xiao Chen, and Qun Liu.
+\newblock Dynabert: Dynamic bert with adaptive width and depth.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2020.
+
+\bibitem[Jiao et~al.(2020)Jiao, Yin, Shang, Jiang, Chen, Li, Wang, and
+  Liu]{jiao2020tinybert}
+Xiaoqi Jiao, Yichun Yin, Lifeng Shang, Xin Jiang, Xiao Chen, Linlin Li, Fang
+  Wang, and Qun Liu.
+\newblock Tinybert: Distilling bert for natural language understanding.
+\newblock \emph{EMNLP}, 2020.
+
+\bibitem[Kim et~al.(2021)Kim, Lee, and Kim]{kim2021learned}
+Tae-Hyoung Kim, Hyeonseob Lee, and Sungroh Kim.
+\newblock Learned token pruning for transformers.
+\newblock \emph{arXiv:2107.00910}, 2021.
+
+\bibitem[Kitaev et~al.(2020)Kitaev, Kaiser, and Levskaya]{kitaev2020reformer}
+Nikita Kitaev, Lukasz Kaiser, and Anselm Levskaya.
+\newblock Reformer: The efficient transformer.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2020.
+
+\bibitem[Liu et~al.(2020)Liu, Zhou, Zhao, Wang, Ju, Deng, and
+  Wang]{liu2020fastbert}
+Weijie Liu, Peng Zhou, Zhe Zhao, Zhiruo Wang, Qi~Ju, Haotang Deng, and Ping
+  Wang.
+\newblock Fastbert: a self-distilling bert with adaptive inference time.
+\newblock \emph{ACL}, 2020.
+
+\bibitem[Sanh et~al.(2019)Sanh, Debut, Chaumond, and Wolf]{sanh2019distilbert}
+Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf.
+\newblock Distilbert, a distilled version of bert: smaller, faster, cheaper and
+  lighter.
+\newblock \emph{arXiv:1910.01108}, 2019.
+
+\bibitem[Teerapittayanon et~al.(2016)Teerapittayanon, McDanel, and
+  Kung]{teerapittayanon2016branchynet}
+Surat Teerapittayanon, Bradley McDanel, and Hsiang-Tsung Kung.
+\newblock Branchynet: Fast inference via early exiting from deep neural
+  networks.
+\newblock In \emph{Proc. ICPR}, 2016.
+
+\bibitem[Turc et~al.(2019)Turc, Chang, Lee, and Toutanova]{turc2019wellread}
+Iulia Turc, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock Well-read students learn better: On the importance of pre-training
+  compact models.
+\newblock \emph{arXiv:1908.08962}, 2019.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2017.
+
+\bibitem[Wang et~al.(2020)Wang, Li, Khabsa, Fang, and Ma]{wang2020linformer}
+Sinong Wang, Belinda Li, Madian Khabsa, Han Fang, and Hao Ma.
+\newblock Linformer: Self-attention with linear complexity.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2020.
+
+\bibitem[Xin et~al.(2020)Xin, Tang, Yu, Yu, and Lin]{xin2020deebert}
+Ji~Xin, Raphael Tang, Jaejun Yu, Yaoliang Yu, and Jimmy Lin.
+\newblock Deebert: Dynamic early exiting for accelerating bert inference.
+\newblock In \emph{ACL}, 2020.
+\newblock URL \url{https://aclanthology.org/2020.acl-main.204}.
+
+\bibitem[Zaheer et~al.(2020)Zaheer, Guruganesh, Dubey, Ainslie, Alberti,
+  Ontanon, Pham, Ravula, Wang, Yang, and Ahmed]{zaheer2020bigbird}
+Manzil Zaheer, Guru Guruganesh, Kumar~Avinava Dubey, Joshua Ainslie, Chris
+  Alberti, Santiago Ontanon, Philip Pham, Anirudh Ravula, Qifan Wang, Li~Yang,
+  and Amr Ahmed.
+\newblock Big bird: Transformers for longer sequences.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2020.
+
+\bibitem[Zhou et~al.(2020)Zhou, Sun, Li, Zhang, and Lin]{zhou2020bert}
+Wangchunshu Zhou, Qizhe Sun, Xuezhi Li, Yang Zhang, and Zhouhan Lin.
+\newblock Bert loses patience: Fast and robust inference with early exit.
+\newblock \emph{arXiv:2006.04152}, 2020.
+
+\end{thebibliography}

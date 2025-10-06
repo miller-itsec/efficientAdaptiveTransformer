@@ -1,0 +1,4 @@
+{"epoch": 1, "val": {"accuracy": 0.8330106979113602}, "device": "NVIDIA GeForce RTX 2080 Ti"}
+{"epoch": 2, "val": {"accuracy": 0.8475802343352012}, "device": "NVIDIA GeForce RTX 2080 Ti"}
+{"epoch": 1, "val": {"accuracy": 0.8307692307692308}, "device": "NVIDIA GeForce RTX 2080 Ti"}
+{"epoch": 2, "val": {"accuracy": 0.8440142638818136}, "device": "NVIDIA GeForce RTX 2080 Ti"}
