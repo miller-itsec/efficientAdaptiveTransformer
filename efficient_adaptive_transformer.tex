@@ -69,6 +69,7 @@
 
 \begin{document}
 \maketitle
+\begingroup\def\thefootnote{}\footnote{Code and reproducible experiments available at: \url{https://github.com/miller-itsec/efficientAdaptiveTransformer}}\endgroup
 
 \begin{abstract}
 The concept of an "Efficient Adaptive Transformer" (EAT) that dynamically adjusts its computation is promising for latency-sensitive applications. This paper introduces the EAT framework---a reproducible, open-source tool designed to investigate the interplay of progressive token pruning, sparse attention, and dynamic early exiting in a unified architecture. We present a fully automated benchmarking protocol to rigorously analyze their combined effect on GLUE tasks (SST-2, QQP, MNLI). Our empirical study on a 6-layer architecture reveals a complex performance trade-off, finding that this direct combination can increase latency. However, the framework shows potential by achieving a slightly higher accuracy on SST-2 than the optimized DISTILBERT baseline, suggesting the architecture's capacity for high performance. The primary contribution of this work is not a new state-of-the-art model, but the open-source framework and the empirical analysis itself, which we offer as a tool for the community to investigate more effective configurations. All code, training scripts, and analysis utilities are released to facilitate this exploration.

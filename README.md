@@ -49,38 +49,33 @@ All timing logs go to `results/logs/` (JSONL). FLOPs tables go to `results/table
 
 ## 📊 4) Postprocessing & Plots (CSV-driven)
 
-After running all tasks, **merge** logs, **summarize** metrics, and **plot** the frontiers.
+After running all tasks, **merge** logs, **summarize** metrics, and **plot** the results.
 
-### 4.1 Merge logs → one CSV
+### 4.1 Merge and Process Logs
 ```powershell
-pwsh scripts/collect_all.ps1
-```
-**Output:** `results/tables/combined_frontier.csv`
+# Merge all .jsonl logs from results/logs/
+pwsh scripts/run_all_sst2.ps1
+pwsh scripts/run_all_qqp.ps1
+pwsh scripts/run_all_mnli.ps1
 
-### 4.2 Summaries from the combined CSV
+# Generate summary tables from the merged data
+python src/summarize_results.py
+```
+
+### 4.2 Generate Plots
 ```bash
-python scripts/summarize_results.py
-```
-**Output:** `results/tables/summary_metrics.csv`
+# Creates results/plots/frontier_<task>.pdf
+python src/plot_frontiers.py
 
-### 4.3 Plot the ablation study plot
-```bash
-python scripts/plot_ablation.py
-```
-**Output:**  
-- `results/plots/ablation_sst2.pdf`
+# Creates results/plots/retention_vs_length.pdf
+python src/plot_retention.py --input_csv ./results/tables/detailed_log.csv
 
-### 4.4 Plot accuracy–latency frontiers
-```bash
-python scripts/plot_frontiers.py
-```
-**Output:**  
-- `results/plots/frontier_sst2.pdf`  
-- `results/plots/frontier_qqp.pdf`  
-- `results/plots/frontier_mnli.pdf`
+# Creates results/plots/exit_distribution.pdf
+python src/plot_exit_distribution.py --input_csv ./results/tables/detailed_log.csv
 
-> These PDFs can be included directly in LaTeX (see Section 8).  
-> The **old `make_tex_data.ps1` is retired** — plots are now generated from `combined_frontier.csv`.
+# (Optional) Creates results/plots/ablation_sst2.pdf
+python src/plot_ablation.py
+```
 
 ---
 
